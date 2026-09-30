@@ -1,4 +1,6 @@
-# LangChain core
+streamlit
+
+# LangChain
 langchain
 langchain-core
 langchain-community
@@ -16,15 +18,18 @@ langchain-huggingface
 sentence-transformers
 
 # Vector database
-faiss-cpu
+chromadb
+langchain-chroma
 
 # Environment variables
 python-dotenv
 
-# Document loading
+# PDF processing
 pypdf
+
+# Other document/web processing
 python-docx
 beautifulsoup4
 
-# Numerical / ML dependencies
+# Numerical
 numpy
