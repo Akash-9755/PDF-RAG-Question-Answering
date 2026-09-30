@@ -1,0 +1,30 @@
+# LangChain core
+langchain
+langchain-core
+langchain-community
+
+# Gemini
+langchain-google-genai
+google-generativeai
+
+# Mistral
+langchain-mistralai
+mistralai
+
+# Embeddings / Hugging Face
+langchain-huggingface
+sentence-transformers
+
+# Vector database
+faiss-cpu
+
+# Environment variables
+python-dotenv
+
+# Document loading
+pypdf
+python-docx
+beautifulsoup4
+
+# Numerical / ML dependencies
+numpy

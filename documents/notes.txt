@@ -1,0 +1,153 @@
+ARTIFICIAL INTELLIGENCE — BASIC GUIDE
+
+Introduction
+
+Artificial Intelligence, commonly called AI, is a field of computer science that focuses on creating computer systems that can perform tasks that normally require human intelligence. These tasks include understanding language, recognizing images, making predictions, solving problems, learning from data, and making decisions.
+
+AI systems can be designed to perform a specific task or a group of related tasks. Examples of AI applications include voice assistants, recommendation systems, fraud detection, medical image analysis, autonomous vehicles, chatbots, and search engines.
+
+Types of Artificial Intelligence
+
+AI can be broadly discussed in terms of Narrow AI, General AI, and Superintelligent AI.
+
+Narrow AI, also called Weak AI, is designed to perform specific tasks. Most AI systems available today are examples of Narrow AI. A movie recommendation system, spam email detector, face recognition system, and voice assistant are examples of Narrow AI.
+
+Artificial General Intelligence, or AGI, refers to a hypothetical AI system that could understand and perform a wide range of intellectual tasks at a level comparable to humans. AGI does not currently exist as a generally available technology.
+
+Artificial Superintelligence refers to a hypothetical system whose intellectual capabilities would significantly exceed those of humans across many areas. It remains a theoretical concept.
+
+Machine Learning
+
+Machine Learning is a major subfield of Artificial Intelligence. Instead of explicitly programming every rule, machine learning systems learn patterns from data.
+
+For example, a machine learning model can be trained using historical house prices. The model can learn relationships between factors such as location, number of rooms, house size, and price. After training, it can be used to estimate the price of another house.
+
+The three common categories of machine learning are supervised learning, unsupervised learning, and reinforcement learning.
+
+Supervised Learning
+
+In supervised learning, a model learns from labeled data. Each training example contains input information and a known target or output.
+
+Classification and regression are common supervised learning tasks. Classification predicts categories, such as whether an email is spam or not spam. Regression predicts numerical values, such as house prices or temperature.
+
+Common supervised learning algorithms include Linear Regression, Logistic Regression, Decision Trees, Random Forests, Support Vector Machines, and Gradient Boosting methods.
+
+Unsupervised Learning
+
+In unsupervised learning, the training data does not contain predefined target labels. The system attempts to discover patterns or structures within the data.
+
+Clustering is a common unsupervised learning task. For example, a business can use clustering to group customers based on purchasing behavior.
+
+K-Means is one of the commonly used clustering algorithms.
+
+Reinforcement Learning
+
+Reinforcement Learning is a machine learning approach in which an agent learns by interacting with an environment. The agent performs actions and receives rewards or penalties based on those actions.
+
+The objective is to learn a strategy that maximizes the total reward over time.
+
+Reinforcement learning has been used in areas such as robotics, game playing, recommendation systems, and resource management.
+
+Deep Learning
+
+Deep Learning is a specialized area of machine learning that uses artificial neural networks with multiple layers.
+
+Deep learning models can automatically learn complex patterns from large amounts of data. They are widely used for image recognition, speech processing, natural language processing, and other applications.
+
+Convolutional Neural Networks, or CNNs, are commonly used for image-related tasks. Recurrent Neural Networks, or RNNs, were designed for sequential data and have been used for tasks involving text and time series. Transformer architectures are widely used in modern natural language processing and generative AI systems.
+
+Natural Language Processing
+
+Natural Language Processing, or NLP, is a field of AI that focuses on enabling computers to process and understand human language.
+
+NLP applications include text classification, sentiment analysis, machine translation, question answering, text summarization, information extraction, and chatbots.
+
+Modern NLP systems often use transformer-based models because transformers can process relationships between words and other elements of a sequence efficiently.
+
+Generative AI
+
+Generative AI refers to AI systems that can generate new content based on patterns learned from data.
+
+Generative AI can produce text, images, audio, video, computer code, and other types of content.
+
+Large Language Models, commonly called LLMs, are a major technology behind modern text-based generative AI applications. LLMs are trained on large collections of text and can generate responses based on the input provided by a user.
+
+Examples of tasks performed by LLM-based systems include answering questions, summarizing documents, extracting information, generating code, translating text, and assisting with writing.
+
+Large Language Models
+
+A Large Language Model is a machine learning model designed to understand and generate human language.
+
+An LLM receives an input prompt and generates an output based on patterns learned during training. The output is generated token by token.
+
+LLMs can be useful for general language tasks, but their knowledge may have limitations. They can also produce incorrect information. Therefore, applications that require accurate information from specific documents may need an additional mechanism for retrieving relevant information.
+
+Retrieval-Augmented Generation
+
+Retrieval-Augmented Generation, commonly called RAG, is a technique that combines information retrieval with text generation.
+
+In a basic RAG system, documents are first loaded and divided into smaller pieces called chunks. These chunks are converted into numerical representations called embeddings. The embeddings are stored in a vector database.
+
+When a user asks a question, the system converts the question into an embedding and searches the vector database for chunks that are semantically similar to the question.
+
+The retrieved chunks are then provided to a language model as context. The language model uses this context to generate an answer.
+
+A simplified RAG workflow is:
+
+Documents → Document Loader → Text Splitter → Embeddings → Vector Database → Retriever → Relevant Context → Language Model → Answer
+
+Benefits of RAG
+
+RAG can help language models answer questions using information from a specific collection of documents.
+
+For example, a company can create a RAG system using its internal employee handbook. An employee could ask about leave policies, and the system could retrieve the relevant section of the handbook before generating an answer.
+
+RAG can also be used with research documents, product manuals, educational material, legal documents, technical documentation, and knowledge bases.
+
+Embeddings
+
+An embedding is a numerical representation of text or another type of data.
+
+Texts with similar meanings can have embeddings that are close to each other in vector space. This allows a system to perform semantic similarity searches.
+
+For example, the questions "What is AI?" and "Explain artificial intelligence" use different words but have similar meanings. An embedding-based search can identify their semantic similarity.
+
+Vector Databases
+
+A vector database or vector store is used to store and search vector representations.
+
+Instead of searching only for exact words, vector search can find information based on semantic similarity.
+
+FAISS is a library that can be used to efficiently search through large collections of vectors. Other vector databases and vector stores include Chroma, Pinecone, Weaviate, and Milvus.
+
+Applications of AI
+
+Artificial Intelligence is used in many industries.
+
+In healthcare, AI can assist with medical image analysis, patient monitoring, and research.
+
+In finance, AI can be used for fraud detection, risk analysis, credit scoring, and customer service.
+
+In retail, AI can power recommendation systems, demand forecasting, inventory analysis, and customer segmentation.
+
+In transportation, AI can support route optimization, traffic prediction, driver assistance systems, and autonomous vehicle research.
+
+In education, AI can support personalized learning, automated feedback, question answering, and educational content generation.
+
+Limitations of AI
+
+AI systems have limitations. A model may produce incorrect predictions or generated information. The quality of an AI system often depends on the quality and relevance of its training or retrieval data.
+
+AI systems can also have problems related to bias, privacy, security, transparency, and reliability.
+
+For applications involving important decisions, AI outputs should be evaluated carefully and appropriate human oversight should be maintained.
+
+Conclusion
+
+Artificial Intelligence is a broad field that includes machine learning, deep learning, natural language processing, computer vision, generative AI, and other technologies.
+
+Machine learning allows systems to learn patterns from data. Deep learning uses multi-layer neural networks to learn complex representations. Generative AI can create new content, while large language models can process and generate text.
+
+Retrieval-Augmented Generation combines information retrieval with language generation. By retrieving relevant information from external documents before generating an answer, a RAG system can provide responses based on a specific knowledge source.
+
+A basic RAG project therefore combines document processing, text chunking, embeddings, vector search, retrieval, and a language model.
